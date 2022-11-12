@@ -1,0 +1,16 @@
+public class Myclass
+{
+final static int x;
+
+static {
+x = 10;
+}
+public static void main(String[]
+args) {
+System.out.println(x);
+}
+}
+
+As soon as a class is loaded into memory, static blocks are instantly invoked.
+Therefore, output of the code is 10.
+
